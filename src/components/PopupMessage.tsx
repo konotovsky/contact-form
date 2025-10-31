@@ -16,7 +16,7 @@ export default function PopupMessage({
   return (
     <div
       className={clsx(
-        "bg-grey-900 fixed top-6 left-1/2 -translate-x-1/2 rounded-xl transition-opacity duration-300 flex p-6 min-w-[327px] max-w-[450px] flex-col gap-2",
+        "bg-grey-900 fixed z-10 top-6 left-1/2 -translate-x-1/2 rounded-xl transition-opacity duration-300 flex p-6 min-w-[327px] max-w-[450px] flex-col gap-2",
         { "opacity-100": show === true, "opacity-0": show === false }
       )}
     >
